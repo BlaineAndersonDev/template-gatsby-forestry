@@ -38,7 +38,7 @@ This template requires you to have the following:
 Forestry will prompt you to select a provider (Github):
 <div style="height: 200px; width: 100px;">
   
-  ![](static/images/forestry_provider.png?raw=true)
+  ![](static/images/forestry_provider.png)
 
 </div>
 
