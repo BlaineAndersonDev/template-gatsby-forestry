@@ -26,12 +26,21 @@ Template Gatsby Forestry is a static CMS blog template. This means that every po
 After posting an article, it takes only a minute or two for the changes to go live and the update to be pushed into the github repo.
 
 ## Using This Template:
-#### Step 1 - Technology:
+### Step 1 - Technology:
 This template requires you to have the following:
   * [Yarn](https://classic.yarnpkg.com/en/docs/install)
   * [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#install-the-gatsby-cli)
 
-#### Step 2 - Connecting Foresty CMS:
+### Step 2 - Connecting Forestry CMS:
+[Sign up](https://app.forestry.io/signup) or [Login](https://app.forestry.io/login) to Forestry to get started.
+
+At the Forestry dashboard, select the "Add Site" button in the top right:
+<div style="display: flex; flex-flow: row nowrap;" align="center">
+  <img src="static/images/forestry_setup_01.png" width="auto" height="400">
+</div>
+
+
+
 <a href="https://app.forestry.io/quick-start?repo=BlaineAndersonDev/template-gatsby-forestry&engine=gatsby">
   <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
@@ -51,30 +60,40 @@ You've now created a Github repository, and connected it to Forestry. Forestry n
 
 The [instant preview](https://forestry.io/docs/previews/instant-previews/) method spins up the Gatsby development server for a long-lived preview that can quickly respond to content updates. When using instant previews, your preview command should be the develop command. The development server spawned by this command should be available over port 8080, and bind to 0.0.0.0. The forestry:preview command in this project's package.json will spin up a Gatsby dev server compatible with Forestry's instant previews.
 
-#### Step 3 - Hosting your Static Blog with Netlify:
+### Step 3 - Hosting your Static Blog with Netlify:
 Now we will host our new Blog on Netlify
 
 <a style="margin: auto;" href="https://app.netlify.com/start/deploy?repository=https://github.com/BlaineAndersonDev/template-gatsby-forestry">
     <img alt="Deploy to Netlify" src="https://www.netlify.com/img/deploy/button.svg" />
 </a>
 
+Netlify has a very strightforward guide through the process
+
+<div style="display: flex; flex-flow: row nowrap;" align="center">
+  <img src="static/images/netlify_deploy_01.png" width="300" height="400">
+  <img src="static/images/netlify_deploy_02.png" width="300" height="400">
+</div>
+
+<img src="static/images/netlify_deploy_03.png" width="300" height="400">
+
+
 [Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) is a great way to easily deploy sites. There's no special setup you need to do with Forestry to deploy with Netlify. When Forestry makes commits to your repo, Netlify will auto-trigger a rebuild / deploy when new commits are made.
 
 
 
 
-#### Step ? - Complete:
+### Step ? - Complete:
 
 Congratulations! At this point you have a fully functional Static Gatsby Blog, hosted on Netlify, that uses Forestry CMS to add additional content.
 
 Keep in mind that due to its static nature, live updates take a few minutes to generate as the entire app has to rebuild on any changes at all.
 
 
-#### Step 3 - Creating New Content Using Forestry:
+### Step 3 - Creating New Content Using Forestry:
 Now that everything is hooked up, let's add a new blog post.
   * Select "Blog Posts" on the sidebar
 
-#### Step 3 - Local Setup (for):
+### Step 3 - Local Setup (for):
 Navigate to where you want the blog to live (this command will create a new directory), then run:
 ```bash
 gatsby new my_blog https://github.com/BlaineAndersonDev/template-gatsby-forestry-blog.git
