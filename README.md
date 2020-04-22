@@ -38,7 +38,31 @@ This template requires you to have the following:
   * [Yarn](https://classic.yarnpkg.com/en/docs/install)
   * [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#install-the-gatsby-cli)
 
-## __Step 2 - Connecting Forestry CMS__:
+### Step 2 - Cloning this Repository using Gatsby:
+[Gatsby](https://www.gatsbyjs.org/) is a Progressive Web App Generator that we will be using to run our Blog.
+
+Navigate to where you want the blog to live (this command will create a new directory), then run:
+```bash
+gatsby new my_blog https://github.com/BlaineAndersonDev/template-gatsby-forestry.git
+```
+Navigate into the new directory:
+```bash
+cd my_blog
+```
+Then use this command to run it locally to make sure everything is working properly:
+```bash
+yarn dev 
+```
+A new browser window should open with the dev server running or you can navigate to localhost:8000.
+
+You should be able to navigate around and read the posts, but to add new ones we'll need to setup a couple things.
+
+Setup a Github Respository using the new Git Repo you just created
+```bash
+yarn dev 
+```
+
+## __Step 3 - Connecting Forestry CMS__:
 [Sign up](https://app.forestry.io/signup) or [Login](https://app.forestry.io/login) to Forestry to get started.
 
 At the Forestry dashboard, select the "Add Site" button in the top right:
@@ -84,7 +108,9 @@ Each blog post has a small icon that can be clicked to show the preview, try it 
   <img src="static/images/forestry_preview_03.png" width="auto" height="500">
 </div>
 
-### __Step 3 - Hosting your Static Blog with Netlify:__
+### __Step 4 - Hosting your Static Blog with Netlify:__
+[Sign up](https://app.netlify.com/signup) or [Login](https://app.netlify.com/login) to Netlify to get started.
+
 Now we will host our new Blog on Netlify, who provides a very strightforward guide through the process.
 
 We wont need to change any settings, so just select the Github repository and deploy the site:
@@ -104,11 +130,6 @@ Once the site is deployed (after a few minutes), a link will appear with a rando
   <img src="static/images/netlify_deploy_05.png" width="auto" height="auto">
 </div>
 
-
-
-
-
-
 ### __Congratulations!__
 
 At this point you have a fully functional Static Gatsby Blog, hosted on Netlify, that uses Forestry CMS to add additional content.
@@ -122,18 +143,9 @@ To make it clear:
 ### Bonus - It's still a Gatsby App:
 So we have everything setup to function properly, but maybe we want to change how the blog posts are displayed, or add bios for our authors?
 
-Well, it's still a Gatsby App, so you can still do all that without messing up anything else you've already setup. 
+Well, it's still a Gatsby App, so you can still do all that without updating anything with Forestry or Netlify. 
 
 Head on over to your Github Repository
-
-### Step 3 - Local Setup (for):
-Navigate to where you want the blog to live (this command will create a new directory), then run:
-```bash
-gatsby new my_blog https://github.com/BlaineAndersonDev/template-gatsby-forestry-blog.git
-cd my_blog
-yarn dev 
-```
-A new browser window should open with the dev server running or you can navigate to localhost:8000 
 
 ## Credit:
 This project is based on [Brevifolia](https://github.com/kendallstrautman/brevifolia-gatsby-forestry), the minimalist blog starter to get you going using [Forestry](https://forestry.io/) with [Gatsby](https://www.gatsbyjs.org/).
