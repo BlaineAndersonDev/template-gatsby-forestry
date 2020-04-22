@@ -21,11 +21,16 @@
 
 ## __About__
 
-Template Gatsby Forestry is a static CMS blog template. This means that every post to the blog via forestry is actually a git commit!
+"Template Gatsby Forestry" is a static CMS blog template that can help you make a blog in only a few minutes!
 
-After posting an article, it takes only a minute or two for the changes to go live and the update to be pushed into the github repo.
+After posting or updating a Post, it takes only a minute or two for the changes to go live (for the app to be re-built).
 
-[Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) is a great way to easily deploy sites. There's no special setup you need to do with Forestry to deploy with Netlify. When Forestry makes commits to your repo, Netlify will auto-trigger a rebuild / deploy when new commits are made.
+How it works:
+  * Clone this App into your own Github Repository.
+  * Connect Forestry: A CMS (Content Management System) that allows writers and bloggers to add content to your Github Repository using Markdown.
+  * Host on Netlify: Any changes made to your Github Repository will automatically tell Netlify to build and host a new app (Continuous Deployment).
+
+There is no special setup between Forestry and Netlify as they both interact with your Github Repository directly.
 
 ## __Using This Template__:
 ### __Step 1 - Technology__:
@@ -93,7 +98,7 @@ We wont need to change any settings, so just select the Github repository and de
   <img src="static/images/netlify_deploy_04.png" width="300" height="300">
 </div>
 
-Once the site is deployed, a link will appear with a randomly generated name. Click on that link and check out your now hosted blog!
+Once the site is deployed (after a few minutes), a link will appear with a randomly generated name. Click on that link and check out your now hosted blog!
 
 <div align="center">
   <img src="static/images/netlify_deploy_05.png" width="auto" height="auto">
@@ -104,16 +109,22 @@ Once the site is deployed, a link will appear with a randomly generated name. Cl
 
 
 
-### Step ? - Complete:
+### __Congratulations!__
 
-Congratulations! At this point you have a fully functional Static Gatsby Blog, hosted on Netlify, that uses Forestry CMS to add additional content.
+At this point you have a fully functional Static Gatsby Blog, hosted on Netlify, that uses Forestry CMS to add additional content.
 
-Keep in mind that due to its static nature, live updates take a few minutes to generate as the entire app has to rebuild on any changes at all.
+Keep in mind that due to its static nature, live updates take a few minutes to generate as the entire app has to rebuild on any change at all.
 
+To make it clear:
+  * Forestry allows editors to add content directy to the Github Repository using a fancy CMS (Content Management System).
+  * Netlify generates a new build every time a change to the Github Repository is commited (For example, whenever a blog post is made or edited). 
 
-### Step 3 - Creating New Content Using Forestry:
-Now that everything is hooked up, let's add a new blog post.
-  * Select "Blog Posts" on the sidebar
+### Bonus - It's still a Gatsby App:
+So we have everything setup to function properly, but maybe we want to change how the blog posts are displayed, or add bios for our authors?
+
+Well, it's still a Gatsby App, so you can still do all that without messing up anything else you've already setup. 
+
+Head on over to your Github Repository
 
 ### Step 3 - Local Setup (for):
 Navigate to where you want the blog to live (this command will create a new directory), then run:
