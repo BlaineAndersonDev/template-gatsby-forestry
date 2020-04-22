@@ -9,29 +9,34 @@
 <p align="center">
 </p>
 <h1 align="center">
-  Gatsby Forest Blog
+  Template Gatsby Forestry Blog
 </h1>
-<p align="center"></p>
 
 ## About
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b9674fab-0072-467c-b8c9-3a44c636ba69/deploy-status)](https://app.netlify.com/sites/wizardly-knuth-b8a540/deploys)
 
-Gatsby Forest Blog is a static CMS blog. This means that every post to the blog via forestry is actually a git commit!
+Template Gatsby Forestry Blog is a static CMS blog template. This means that every post to the blog via forestry is actually a git commit!
 
 After posting an article, it takes only a minute or two for the changes to go live and the update to be pushed into the github repo.
 
-#### Setting Up & Using This Template:
+## Using This Template:
+#### Step 1 - Local Setup:
 Make sure you have the [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#install-the-gatsby-cli) installed.
 
 In your terminal, navigate to where you would like this blog to live, then run 
 ```bash
-gatsby new gatsby-foresty-blog https://github.com/BlaineAndersonDev/forest.git
-cd gatsby-foresty-blog
+gatsby new my_blog https://github.com/BlaineAndersonDev/template-gatsby-forestry-blog.git
+cd my_blog
 yarn dev 
 ```
 A new browser window should open with the dev server running or you can navigate to localhost:8000 
 
-### Credit:
+#### Step 2 - Connecting Foresty CMS:
+<a href="https://app.forestry.io/quick-start?repo=BlaineAndersonDev/template-gatsby-forestry-blog&engine=gatsby" target="_blank">
+    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
+</a>
+
+## Credit:
 This project is based on [Brevifolia](https://github.com/kendallstrautman/brevifolia-gatsby-forestry), the minimalist blog starter to get you going using [Forestry](https://forestry.io/) with [Gatsby](https://www.gatsbyjs.org/).
 
 # Gatsby Basics Review:
