@@ -167,13 +167,14 @@ So we have everything setup to function properly, but maybe we want to change ho
 
 Well, it's still a Gatsby App, so you can still do all that without updating anything with Forestry or Netlify. 
 
+### Bonus - Changing the Styling:
+To Be Added.
+
+### Bonus - Adding (Or Removing) Post Fields:
+To Be Added.
+
 ## Credit:
 This project is based on [Brevifolia](https://github.com/kendallstrautman/brevifolia-gatsby-forestry), the minimalist blog starter to get you going using [Forestry](https://forestry.io/) with [Gatsby](https://www.gatsbyjs.org/).
-
-
-
-
-
 
 <!-- # Gatsby Basics Review:
 ### Gatsby Tutorial - Notes on section 1 - Building Blocks
