@@ -36,6 +36,7 @@ This template requires you to have the following:
 </a>
 
 Forestry will prompt you to select a provider (Github):
+
 <img src="static/images/forestry_provider.png" width="100" height="200">
 
 Forestry will then prompt you create a new repository. Select yourself as the repository owner, and name it whatever you like:
