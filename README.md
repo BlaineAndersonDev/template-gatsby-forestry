@@ -39,7 +39,7 @@ This template requires you to have the following:
   * [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#install-the-gatsby-cli)
   * [Github](https://github.com/)
 
-## __ Step 2 - Cloning this Repository using Gatsby__
+## __Step 2 - Cloning this Repository using Gatsby__
 [Gatsby](https://www.gatsbyjs.org/) is a Progressive Web App Generator that we will be using to run our Blog.
 
 Navigate to where you want the blog to live (this command will create a new directory), then run:
@@ -58,10 +58,10 @@ A new browser window should open with the dev server running or you can navigate
 
 You should be able to navigate around and read the posts, but to add new ones we'll need to setup a couple things.
 
-## __ Step 3 - Creating a Github Repository__
+## __Step 3 - Creating a Github Repository__
 Head over to [Github](https://github.com/) and click the "New" option under repositories:
 <div align="center">
-  <img src="static/images/github_setup_01.png" width="auto" height="400">
+  <img src="static/images/github_setup_01.png" width="auto" height="200">
 </div>
 
 Add a Repository Name (I use the same repo name on my local machine), a short description and hit "Create Repository":
@@ -71,7 +71,7 @@ Add a Repository Name (I use the same repo name on my local machine), a short de
 
 Grab the Repository HTTPS link:
 <div align="center">
-  <img src="static/images/github_setup_03.png" width="auto" height="600">
+  <img src="static/images/github_setup_03.png" width="auto" height="300">
 </div>
 
 Open up your terminal (make sure you are in the root directory of your App) and use the following commands to add this Github Repository and push up the current App:
@@ -89,7 +89,7 @@ Now Github is ready for us to connect Forestry and Netlify.
 
 At the Forestry dashboard, select the "Add Site" button in the top right:
 <div align="center">
-  <img src="static/images/forestry_setup_01.png" width="auto" height="400">
+  <img src="static/images/forestry_setup_01.png" width="auto" height="300">
 </div>
 
 Select Gatsby as the static site generator:
@@ -109,7 +109,7 @@ Forestry now wants you to setup the sidebar, which allows your editors (or yours
 Forestry is pretty intuitive, and since you copied this repository it should automatically be setup! Just select 'mark as done' on the three required options then select 'complete setup'.
 
 <div align="center">
-  <img src="static/images/forestry_mark_as_done.png" width="auto" height="500">
+  <img src="static/images/forestry_mark_as_done.png" width="auto" height="400">
 </div>
 
 Lastly, we want to setup an instant preview server using Forestry.
@@ -121,13 +121,13 @@ All the required information is already setup in the `.forestry` directory in th
 Each blog post has a small icon that can be clicked to show the preview, try it out:
 
 <div align="center">
-  <img src="static/images/forestry_preview_01.png" width="auto" height="500">
+  <img src="static/images/forestry_preview_01.png" width="auto" height="400">
 </div>
 <div align="center">
-  <img src="static/images/forestry_preview_02.png" width="auto" height="500">
+  <img src="static/images/forestry_preview_02.png" width="auto" height="400">
 </div>
 <div align="center">
-  <img src="static/images/forestry_preview_03.png" width="auto" height="500">
+  <img src="static/images/forestry_preview_03.png" width="auto" height="400">
 </div>
 
 ### __Step 5 - Hosting your Static Blog with Netlify__
