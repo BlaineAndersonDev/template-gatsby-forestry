@@ -1,3 +1,4 @@
+<!-- https://guides.github.com/features/mastering-markdown/#examples -->
 <h1 align="center">
   Template Gatsby Forestry
 </h1>
@@ -42,7 +43,11 @@ Forestry will prompt you to select a provider (Select Github). Forestry will the
   <img src="static/images/forestry_name.png" width="300" height="400">
 </div>
 
-Forestry will then prompt you create a new repository. 
+You've now created a Github repository, and connected it to Forestry. Forestry now wants you to setup the sidebar, which allows your editors (or yourself) to publish new posts. Since you copied this repository this will automatically be setup! Just select 'mark as done' on the three required options.
+
+<div style="display: flex; flex-flow: row nowrap;" align="center">
+  <img src="static/images/forestry_mark_as_done.png" width="300" height="400">
+</div>
 
 #### Step 3 - Local Setup:
 Navigate to where you want the blog to live (this command will create a new directory), then run:
