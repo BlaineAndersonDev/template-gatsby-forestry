@@ -32,9 +32,15 @@ This template requires you to have the following:
 
 #### Step 2 - Connecting Foresty CMS:
 <a href="https://app.forestry.io/quick-start?repo=BlaineAndersonDev/template-gatsby-forestry&engine=gatsby">
-    <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
+  <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
-  
+
+Forestry will prompt you to select a provider (Github):
+![](static/images/forestry_provider.png?raw=true)
+
+Forestry will then prompt you create a new repository. Select yourself as the repository owner, and name it whatever you like:
+![](static/images/forestry_name.png)
+
 #### Step 3 - Local Setup:
 Navigate to where you want the blog to live (this command will create a new directory), then run:
 ```bash
