@@ -38,8 +38,8 @@ This template requires you to have the following:
 Forestry will prompt you to select a provider (Select Github). Forestry will then prompt you create a new repository, select yourself as the repository owner and name it whatever you like:
 
 <div style="display: flex; flex-flow: row nowrap;" align="center">
-  <img src="static/images/forestry_provider.png" width="350" height="500">
-  <img src="static/images/forestry_name.png" width="350" height="500">
+  <img src="static/images/forestry_provider.png" width="250" height="400">
+  <img src="static/images/forestry_name.png" width="250" height="400">
 </div>
 
 Forestry will then prompt you create a new repository. 
