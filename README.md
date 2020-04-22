@@ -14,7 +14,6 @@
     <img src="/static/gatsby_logo.svg" width="112" height="28">
   </a>
 </p>
-<span style="display:block;text-align:center">![Test Automation]Automated-Testing.png)</span>
 
 ## About
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b9674fab-0072-467c-b8c9-3a44c636ba69/deploy-status)](https://app.netlify.com/sites/wizardly-knuth-b8a540/deploys)
@@ -43,7 +42,7 @@ A new browser window should open with the dev server running or you can navigate
 ## Credit:
 This project is based on [Brevifolia](https://github.com/kendallstrautman/brevifolia-gatsby-forestry), the minimalist blog starter to get you going using [Forestry](https://forestry.io/) with [Gatsby](https://www.gatsbyjs.org/).
 
-# Gatsby Basics Review:
+<!-- # Gatsby Basics Review:
 ### Gatsby Tutorial - Notes on section 1 - Building Blocks
 * Any .js file in src/pages/ automatically has a route attached with the same name.
   * I.E. `about.js` would be reachable by using `http://localhost:8000/about`.
@@ -618,4 +617,4 @@ This project is based on [Brevifolia](https://github.com/kendallstrautman/brevif
       * The seo.js file can be called in your pages and templates. Passing props to it will increase your SEO score with Lighthouse.
         * *Note - This code automatically queries and sets up most of the common requirements for SEO, but must be called and sent props to actually work. In the event that no props are sent, seo.js will default to the site metadata provided in gatsby-config.js.*
 ### Gatsby Tutorial - Creating an Image Source Plugin
-* 
+*  -->
