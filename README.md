@@ -6,11 +6,11 @@
   A Static CMS Blog Template
 </p>
 <p align="center">
-  <a style="padding-right: 16px;" href="https://forestry.io">
-    <img src="https://app.forestry.io/assets/forestry-logotype-pos-c71a6bd237d9199d0457ba2811553997ff5bab0d2cd0e740686ab26c00d9c240.svg" width="112" height="28">
-  </a>
-  <a href="https://www.gatsbyjs.org/">
+  <a style="padding-right: 16px;" href="https://www.gatsbyjs.org/">
     <img src="/static/gatsby_logo.svg" width="112" height="28">
+  </a>
+  <a href="https://forestry.io">
+    <img src="https://app.forestry.io/assets/forestry-logotype-pos-c71a6bd237d9199d0457ba2811553997ff5bab0d2cd0e740686ab26c00d9c240.svg" width="112" height="28">
   </a>
 </p>
 <p align="center">
