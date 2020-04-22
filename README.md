@@ -37,7 +37,7 @@ This template requires you to have the following:
 
 Forestry will prompt you to select a provider (Select Github). At the next prompt select yourself as the repository owner, and name it whatever you like:
 
-<div style="display: flex; flex-flow: row nowrap;" align="center">
+<div style="display: flex; flex-flow: row nowrap; justify-content: space-around;" align="center">
   <img src="static/images/forestry_provider.png" width="100" height="200">
   <img src="static/images/forestry_provider.png" width="100" height="200">
 </div>
