@@ -31,7 +31,7 @@ This template requires you to have the following:
   * [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#install-the-gatsby-cli)
 
 #### Step 2 - Connecting Foresty CMS:
-<a href="https://app.forestry.io/quick-start?repo=BlaineAndersonDev/template-gatsby-forestry-blog&engine=gatsby">
+<a href="https://app.forestry.io/quick-start?repo=BlaineAndersonDev/template-gatsby-forestry&engine=gatsby">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
   
