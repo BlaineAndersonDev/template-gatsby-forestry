@@ -32,6 +32,14 @@ This template requires you to have the following:
   * [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#install-the-gatsby-cli)
 
 ### Step 2 - Connecting Forestry CMS:
+<a href="https://app.forestry.io/signup">
+  <img alt="Sign Up" src="https://assets.forestry.io/import-to-forestryK.svg" />
+</a>
+or 
+<a href="https://app.forestry.io/login">
+  <img alt="Login" src="https://assets.forestry.io/import-to-forestryK.svg" />
+</a>
+
 [Sign up](https://app.forestry.io/signup) or [Login](https://app.forestry.io/login) to Forestry to get started.
 
 At the Forestry dashboard, select the "Add Site" button in the top right:
