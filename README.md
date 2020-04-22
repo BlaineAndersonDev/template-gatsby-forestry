@@ -82,7 +82,7 @@ git commit -m "Initial Commit"
 git push origin master
 ```
 
-Now we have our Github Repository ready to go!
+Now Github is ready for us to connect Forestry and Netlify.
 
 ## __Step 4 - Connecting Forestry CMS__
 [Sign up](https://app.forestry.io/signup) or [Login](https://app.forestry.io/login) to Forestry to get started.
