@@ -85,7 +85,7 @@ Now we will host our new Blog on Netlify, who provides a very strightforward gui
 We wont need to change any settings, so just select the Github repository and deploy the site:
 
 <div align="center">
-  <img src="static/images/netlify_deploy_01.png" width="600" height="400">
+  <img src="static/images/netlify_deploy_01.png" width="600" height="300">
 </div>
 <div align="center">
   <img src="static/images/netlify_deploy_02.png" width="300" height="300">
