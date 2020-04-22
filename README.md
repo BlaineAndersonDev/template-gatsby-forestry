@@ -88,9 +88,9 @@ We wont need to change any settings, so just select the Github repository and de
   <img src="static/images/netlify_deploy_01.png" width="600" height="400">
 </div>
 <div align="center">
-  <img src="static/images/netlify_deploy_02.png" width="400" height="300">
-  <img src="static/images/netlify_deploy_03.png" width="400" height="300">
-  <img src="static/images/netlify_deploy_04.png" width="400" height="300">
+  <img src="static/images/netlify_deploy_02.png" width="300" height="300">
+  <img src="static/images/netlify_deploy_03.png" width="300" height="300">
+  <img src="static/images/netlify_deploy_04.png" width="300" height="300">
 </div>
 
 Once the site is deployed, a link will appear with a randomly generated name. Click on that link and check out your now hosted blog!
