@@ -53,18 +53,10 @@ The [instant preview](https://forestry.io/docs/previews/instant-previews/) metho
 
 #### Step 3 - Hosting your Static Blog with Netlify:
 Now we will host our new Blog on Netlify
-  * Select "Blog Posts" on the sidebar
 
-
-
-<p align="center">
-  <a style="margin: auto;" href="https://app.netlify.com/start/deploy?repository=https://github.com/BlaineAndersonDev/template-gatsby-forestry">
-      <img alt="Deploy to Netlify" src="https://www.netlify.com/img/deploy/button.svg" />
-  </a>
-</p>
-
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kendallstrautman/brevifolia-gatsby-forestry)
+<a style="margin: auto;" href="https://app.netlify.com/start/deploy?repository=https://github.com/BlaineAndersonDev/template-gatsby-forestry">
+    <img alt="Deploy to Netlify" src="https://www.netlify.com/img/deploy/button.svg" />
+</a>
 
 [Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) is a great way to easily deploy sites. There's no special setup you need to do with Forestry to deploy with Netlify. When Forestry makes commits to your repo, Netlify will auto-trigger a rebuild / deploy when new commits are made.
 
