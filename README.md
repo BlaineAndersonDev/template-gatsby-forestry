@@ -31,42 +31,54 @@ This template requires you to have the following:
   * [Yarn](https://classic.yarnpkg.com/en/docs/install)
   * [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#install-the-gatsby-cli)
 
-### Step 2 - Connecting Forestry CMS:
-<a href="https://app.forestry.io/signup">
-  <img alt="Sign Up" src="https://assets.forestry.io/import-to-forestryK.svg" />
-</a>
-or 
-<a href="https://app.forestry.io/login">
-  <img alt="Login" src="https://assets.forestry.io/import-to-forestryK.svg" />
-</a>
-
+## Step 2 - Connecting Forestry CMS:
 [Sign up](https://app.forestry.io/signup) or [Login](https://app.forestry.io/login) to Forestry to get started.
 
 At the Forestry dashboard, select the "Add Site" button in the top right:
-<div style="display: flex; flex-flow: row nowrap;" align="center">
+<div align="center">
   <img src="static/images/forestry_setup_01.png" width="auto" height="400">
 </div>
 
-
-
-<a href="https://app.forestry.io/quick-start?repo=BlaineAndersonDev/template-gatsby-forestry&engine=gatsby">
-  <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
-</a>
-
-Forestry will prompt you to select a provider (Select Github). Forestry will then prompt you create a new repository, select yourself as the repository owner and name it whatever you like:
-
-<div style="display: flex; flex-flow: row nowrap;" align="center">
-  <img src="static/images/forestry_provider.png" width="300" height="400">
-  <img src="static/images/forestry_name.png" width="300" height="400">
+Select Gatsby as the static site generator:
+<div align="center">
+  <img src="static/images/forestry_setup_02.png" width="auto" height="400">
 </div>
 
-You've now created a Github repository, and connected it to Forestry. Forestry now wants you to setup the sidebar, which allows your editors (or yourself) to publish new posts. Since you copied this repository this will automatically be setup! Just select 'mark as done' on the three required options then select 'complete setup'.
+Select Gatsby as the static site generator, then select Github as the git provider (Leave the Quick Setup via OAuth toggled on unless you want to do OAuth manually):
+<div align="center">
+  <img src="static/images/forestry_setup_02.png" width="300" height="400">
+  <img src="static/images/forestry_setup_03.png" width="300" height="400">
+  <img src="static/images/forestry_setup_04.png" width="300" height="400">
+</div>
 
-<div style="display: flex; flex-flow: row nowrap;" align="center">
+Forestry now wants you to setup the sidebar, which allows your editors (or yourself) to publish new posts. 
+
+Forestry is pretty intuitive, and since you copied this repository it should automatically be setup! Just select 'mark as done' on the three required options then select 'complete setup'.
+
+<div align="center">
   <img src="static/images/forestry_mark_as_done.png" width="auto" height="500">
 </div>
 
-The [instant preview](https://forestry.io/docs/previews/instant-previews/) method spins up the Gatsby development server for a long-lived preview that can quickly respond to content updates. When using instant previews, your preview command should be the develop command. The development server spawned by this command should be available over port 8080, and bind to 0.0.0.0. The forestry:preview command in this project's package.json will spin up a Gatsby dev server compatible with Forestry's instant previews.
+Lastly, we want to setup an instant preview server using Forestry.
+
+This is so our editors (or us) can see an "Instant Preview" of what it will look like on the live site, without having to wait a few minutes between publishing inbetween edits.
+
+All the required information is already setup in the `.forestry` directory in the repository. This tells Forestry to setup a Gatsby Development server for itself. 
+
+Each blog post has a small icon that can be clicked to show the preview, try it out:
+
+<div align="center">
+  <img src="static/images/forestry_preview_01.png" width="auto" height="500">
+</div>
+<div align="center">
+  <img src="static/images/forestry_preview_02.png" width="auto" height="500">
+</div>
+<div align="center">
+  <img src="static/images/forestry_preview_03.png" width="auto" height="500">
+</div>
+
+
+
 
 ### Step 3 - Hosting your Static Blog with Netlify:
 Now we will host our new Blog on Netlify
