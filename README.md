@@ -14,6 +14,7 @@
     <img src="/static/gatsby_logo.svg" width="112" height="28">
   </a>
 </p>
+<span style="display:block;text-align:center">![Test Automation]Automated-Testing.png)</span>
 
 ## About
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b9674fab-0072-467c-b8c9-3a44c636ba69/deploy-status)](https://app.netlify.com/sites/wizardly-knuth-b8a540/deploys)
