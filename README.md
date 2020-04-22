@@ -2,8 +2,6 @@
   Template Gatsby Forestry
 </h1>
 <p align="center">
-</p>
-<p align="center">
   A Static CMS Blog Template
 </p>
 <p align="center">
