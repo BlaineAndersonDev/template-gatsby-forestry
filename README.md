@@ -16,7 +16,7 @@
 </p>
 
 ## About
-<a align="center" href="https://app.netlify.com/sites/wizardly-knuth-b8a540/deploys" target="_blank">
+<a style="margin: auto;" href="https://app.netlify.com/sites/wizardly-knuth-b8a540/deploys" target="_blank">
     <img alt="Import this project into Forestry" src="https://api.netlify.com/api/v1/badges/b9674fab-0072-467c-b8c9-3a44c636ba69/deploy-status" />
 </a>
 
