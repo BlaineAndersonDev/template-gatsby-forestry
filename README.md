@@ -37,8 +37,9 @@ There is no special setup between Forestry and Netlify as they both interact wit
 This template requires you to have the following:
   * [Yarn](https://classic.yarnpkg.com/en/docs/install)
   * [Gatsby CLI](https://www.gatsbyjs.org/docs/quick-start/#install-the-gatsby-cli)
+  * [Github](https://github.com/)
 
-### Step 2 - Cloning this Repository using Gatsby:
+## __ Step 2 - Cloning this Repository using Gatsby__
 [Gatsby](https://www.gatsbyjs.org/) is a Progressive Web App Generator that we will be using to run our Blog.
 
 Navigate to where you want the blog to live (this command will create a new directory), then run:
@@ -57,12 +58,33 @@ A new browser window should open with the dev server running or you can navigate
 
 You should be able to navigate around and read the posts, but to add new ones we'll need to setup a couple things.
 
-Setup a Github Respository using the new Git Repo you just created
+## __ Step 3 - Creating a Github Repository__
+Head over to [Github](https://github.com/) and click the "New" option under repositories:
+<div align="center">
+  <img src="static/images/github_setup_01.png" width="auto" height="400">
+</div>
+
+Add a Repository Name (I use the same repo name on my local machine), a short description and hit "Create Repository":
+<div align="center">
+  <img src="static/images/github_setup_02.png" width="auto" height="600">
+</div>
+
+Grab the Repository HTTPS link:
+<div align="center">
+  <img src="static/images/github_setup_03.png" width="auto" height="600">
+</div>
+
+Open up your terminal (make sure you are in the root directory of your App) and use the following commands to add this Github Repository and push up the current App:
 ```bash
-yarn dev 
+git remote add origin THE_LINK_YOU_COPIED
+git add .
+git commit -m "Initial Commit"
+git push origin master
 ```
 
-## __Step 3 - Connecting Forestry CMS__:
+Now we have our Github Repository ready to go!
+
+## __Step 4 - Connecting Forestry CMS__
 [Sign up](https://app.forestry.io/signup) or [Login](https://app.forestry.io/login) to Forestry to get started.
 
 At the Forestry dashboard, select the "Add Site" button in the top right:
@@ -108,7 +130,7 @@ Each blog post has a small icon that can be clicked to show the preview, try it 
   <img src="static/images/forestry_preview_03.png" width="auto" height="500">
 </div>
 
-### __Step 4 - Hosting your Static Blog with Netlify:__
+### __Step 5 - Hosting your Static Blog with Netlify__
 [Sign up](https://app.netlify.com/signup) or [Login](https://app.netlify.com/login) to Netlify to get started.
 
 Now we will host our new Blog on Netlify, who provides a very strightforward guide through the process.
