@@ -1,3 +1,8 @@
+<h1 align="center">
+  Template Gatsby Forestry
+</h1>
+<p align="center">
+</p>
 <p align="center">
   <a style="padding-right: 16px;" href="https://forestry.io">
     <img src="https://app.forestry.io/assets/forestry-logotype-pos-c71a6bd237d9199d0457ba2811553997ff5bab0d2cd0e740686ab26c00d9c240.svg" width="112" height="28">
@@ -5,13 +10,8 @@
   <a href="https://www.gatsbyjs.org/">
     <img src="/static/gatsby_logo.svg" width="112" height="28">
   </a>
-</p>
-<p align="center">
-</p>
-<h1 align="center">
-  Template Gatsby Forestry
   <p>A Static CMS Blog Template</p>
-</h1>
+</p>
 
 ## About
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b9674fab-0072-467c-b8c9-3a44c636ba69/deploy-status)](https://app.netlify.com/sites/wizardly-knuth-b8a540/deploys)
