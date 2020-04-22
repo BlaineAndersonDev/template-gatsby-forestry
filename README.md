@@ -9,13 +9,14 @@
 <p align="center">
 </p>
 <h1 align="center">
-  Template Gatsby Forestry Blog
+  Template Gatsby Forestry
+  <p>A Static CMS Blog Template</p>
 </h1>
 
 ## About
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b9674fab-0072-467c-b8c9-3a44c636ba69/deploy-status)](https://app.netlify.com/sites/wizardly-knuth-b8a540/deploys)
 
-Template Gatsby Forestry Blog is a static CMS blog template. This means that every post to the blog via forestry is actually a git commit!
+Template Gatsby Forestry is a static CMS blog template. This means that every post to the blog via forestry is actually a git commit!
 
 After posting an article, it takes only a minute or two for the changes to go live and the update to be pushed into the github repo.
 
